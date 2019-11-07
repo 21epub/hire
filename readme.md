@@ -5,7 +5,7 @@
 ### 工作内容
 
 - 前端团队
-  - 开发基于 React 或 Vue 的交互、效果、数据功能组件
+  - 开发基于 Vue 或 React 的交互、效果、数据功能组件
     - [Coolsite360 编辑器](http://www.coolsite360.com/)：响应式交互网站 编辑展示套件的开发
     - [Epub360 编辑器](https://www.epub360.com/)：微信 H5 场景应用 编辑播放套件的开发
   - 开发基于 Vue 的管理工作台
