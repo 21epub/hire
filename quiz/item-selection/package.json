@@ -1,0 +1,25 @@
+{
+  "name": "item-selection",
+  "version": "1.0.0",
+  "description": "实现 **元素选中** 功能",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx webpack-dev-server --open --port 3000 --contentBase src --hot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.10",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "css-loader": "^3.3.0",
+    "style-loader": "^1.0.1",
+    "vue-loader": "^15.7.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

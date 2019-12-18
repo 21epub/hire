@@ -1,7 +1,7 @@
 import Vue from 'vue';
 
 import App from './components/editor-with-mask.vue';
-import { itemGroup } from '../data';
+//import { itemGroup } from '../data';
 
 // * ----------------
 
@@ -12,7 +12,7 @@ $container.appendChild($context);
 export const app = new Vue({
   render: (h) =>
     h(App, {
-      props: { itemGroup, mask: false },
+      props: { /* itemGroup, */ mask: false },
       methods: {
         updateComponentData() {
           // console.warn(this.$refs, this.itemGroup);

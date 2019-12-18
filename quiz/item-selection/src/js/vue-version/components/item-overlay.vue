@@ -31,3 +31,18 @@ export default {
   }
 };
 </script> 
+
+<style scoped>
+.item {
+  border: 2px solid #47639b;
+  background-color: #b9bfe6;
+  position: absolute;
+  display: flex; /*flex弹性布局*/
+  justify-content: center;
+  align-items: center;
+}
+
+.actived {
+  border: 2px dashed black;
+}
+</style>

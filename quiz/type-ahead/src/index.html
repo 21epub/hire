@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <form class="search-form">
-      <input type="text" class="search" placeholder="City or State" />
-      <ul class="suggestions">
-        <li>根据输入筛选数据</li>
-        <li>
-          <span class="name">{{城市, 州}}</span>
-          <span class="population">{{人口}}</span>
-        </li>
-      </ul>
-    </form>
 
-    <script src="script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <form class="search-form">
+    <input type="text" class="search" placeholder="City or State" @keyup="userInput" v-model="userInputContent" />
+    <ul class="suggestions" v-show="showData.leng==0">
+      <li>根据输入筛选数据</li>
+      <li>
+        <span class="name" v-pre>{{城市, 州}}</span>
+        <span class="population" v-pre>{{人口}}</span>
+      </li>
+    </ul>
+    <ul class="suggestions" v-for="city in showData">
+      <li>
+        <span class="name" v-html="city.cityName"></span>
+        <span class="population">{{ city.population }}</span>
+      </li>
+    </ul>
+  </form>
+
+  <script src="../node_modules/vue/dist/vue.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
