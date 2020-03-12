@@ -15,9 +15,15 @@
 
 ### 技术栈
 
-- React (partial)
-- Vue (partial)
-- jQuery + Backbone (legacy)
+- 当前
+  - TypeScript
+  - React Hooks
+  - Redux
+  - RxJS
+  - Ramda
+- 历史项目
+  - jQuery
+  - Backbone
 
 ### 展现你的能力
 
