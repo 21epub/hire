@@ -5,13 +5,14 @@
 ### 工作内容
 
 - 前端团队
-  - 开发基于 React 的交互、效果、数据功能组件
-    - [Coolsite360 编辑器](http://www.coolsite360.com/)：响应式交互网站 编辑展示套件的开发
-    - [Epub360 编辑器](https://www.epub360.com/)：微信 H5 场景应用 编辑播放套件的开发
-  - 开发基于 Vue 的管理工作台
+  - 开发基于 React 的交互、效果、数据功能组件 (功能开发和架构升级)
+    - [Coolsite360 编辑器](http://www.coolsite360.com/)：响应式交互网站专业建站工具 编辑展示套件的开发
+    - [Epub360 编辑器](https://www.epub360.com/)：微信 H5 场景应用专业设计工具 编辑播放套件的开发
+  - 开发基于 Ant design Pro 的管理工作台
     - （工作台是主要产品的配套服务）
   - 优化维护
     - 现有组件优化、工程基础设施优化
+  - 产品独立部署系统的支撑和开发
 
 ### 技术栈
 
@@ -21,9 +22,13 @@
   - Redux
   - RxJS
   - Ramda
-- 历史项目
+  - Mobx
+  - Ant design
+- 历史项目 (升级中...)
   - jQuery
   - Backbone
+  - underscore
+  - bootstrap
 
 ### 展现你的能力
 
